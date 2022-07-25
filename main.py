@@ -28,3 +28,35 @@
 # imie = "Paweł" #string
 # czyDuzy = True #boolean (prawda lub fałsz)
 
+# + dodwanie
+# - odejmowanie
+# * mnozenie
+# / dzielenie
+#
+# () jak w matematyce kieruja kolejnoscia dzialania
+#
+# ** potegowanie
+# // dzielenie w dol
+# % modulo (reszta z dzielenia (licznik ułamka tylko!))
+
+# dzielenie_cale = 9 / 2
+# print(dzielenie_cale)
+#
+# dzielenie_zaokraglone = 9 // 2
+# print(dzielenie_zaokraglone)
+
+# zmienne!
+
+# przykladowa zmiana podatku vat - zmienne
+
+# Vat = 23
+# obliczonyVat = (1 + Vat / 100)
+#
+# cenaKursuJavaNetto = 10
+# cenaKursuAjaxNetto = 20
+#
+# cenaKursuJavaBrutto = cenaKursuJavaNetto * obliczonyVat
+# cenaKursuAjaxBrutto = cenaKursuAjaxNetto * (1 + Vat / 100)
+#
+# print(cenaKursuJavaBrutto)
+# print(cenaKursuJavaNetto)
