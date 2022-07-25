@@ -60,4 +60,8 @@
 #
 # print(cenaKursuJavaBrutto)
 # print(cenaKursuJavaNetto)
+#
+# print(cenaKursuAjaxBrutto)
+# print(cenaKursuAjaxNetto)
 
+--- 8
