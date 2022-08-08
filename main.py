@@ -64,4 +64,4 @@
 # print(cenaKursuAjaxBrutto)
 # print(cenaKursuAjaxNetto)
 
---- 8
+# --- 8
