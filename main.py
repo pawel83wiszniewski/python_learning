@@ -77,22 +77,23 @@
 
 # Python - podstawy w 60 minut yt / kacper sieradzinski.
 
-print('Hello World')
-first_name = input('Jak masz na imie? ')
-print('Hello', first_name)
+# print('Hello World')
+# first_name = input('Jak masz na imie? ')
+# print('Hello', first_name)
+#
+# if first_name == 'Kacper':
+#     print('Cześć Kacper!')
+#
+# else:
+#     print('Nie wiem kto ty ale gadaj kto!')
+#
+# age = input('Ile masz lat? ')
+#
+# if int(age) >= 18:
+#     print('Jesteś dorosły!')
+#
+# else:
+#     print('No jeszcze nie...')
+#     wait_years = 18 - int(age)
+#     print('zaczekaj jeszcze:', wait_years, 'lat(a).')
 
-if first_name == 'Kacper':
-    print('Cześć Kacper!')
-
-else:
-    print('Nie wiem kto ty ale gadaj kto!')
-
-age = input('Ile masz lat? ')
-
-if int(age) >= 18:
-    print('Jesteś dorosły!')
-
-else:
-    print('No jeszcze nie...')
-    wait_years = 18 - int(age)
-    print('zaczekaj jeszcze:', wait_years, 'lat(a).')
