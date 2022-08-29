@@ -97,12 +97,34 @@
 #     wait_years = 18 - int(age)
 #     print('zaczekaj jeszcze:', wait_years, 'lat(a).')
 
-point_x = 1
-point_y = 2
+# point_x = 1
+# point_y = 2
+#
+# # tupla - krotka niemutowalna
+# point = 1, 2
+# print(point[0])
+# print(point[1])
+#
+# print(point)
+#
+# # listy
+#
+# cities = ['Gdynia', 'Gdańsk', 'Sopot']
+# cities.append('Warszawa')
+# cities.append('Kraków')
+# cities.append('Suwałki')
+# print(cities[0])
+# cities.sort()
+# cities[-1] = 'Zakopane'
+# print(cities)
+#
 
-# tupla - krotka niemutowalna
-point = 1, 2
-print(point[0])
-print(point[1])
+# słowniki
 
-print(point)
+capitals = {
+    'Poland': 'Warszawa',
+    'France': 'Paris',
+    'Germany': 'Berlin'
+}
+
+print(capitals['Poland'])
