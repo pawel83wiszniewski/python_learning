@@ -121,20 +121,97 @@
 
 # słowniki
 
-from random import choice
+# from random import choice
+#
+#
+# capitals = {
+#     'Poland': 'Warszawa',
+#     'France': 'Paris',
+#     'Germany': 'Berlin'
+# }
+#
+# selected_country = choice(list(capitals.keys()))
+#
+# capital = input(f'What is the capital of {selected_country}? ')
+#
+# if capitals[selected_country] == capital:
+#     print('Bardzo dobrze!')
+# else:
+#     print('Wcale nie! Chodziło nam o', capitals[selected_country])
+
+# 39:00 i dalej
+
+# capitals = {'Warsaw', 'London', 'Paris'}
+# loved_cities = {'Paris', 'New York'}
+#
+# print(capitals)
+# print(loved_cities)
+#
+# print(capitals - loved_cities)
+# print(capitals & loved_cities)
+
+# 45:00 i dalej
+
+# pętle
+
+# for - petla wykonujaca sie okreslona ilosc razy (skonczona) range - okreslamy ile razy
+
+# for n in range(10):
+#     print(n)
+
+# for _ in range(10):
+#     print('Napisze cos!')
+
+# while - petla wykonuje sie dopoki twierdzenie jest prawdziwe.
+
+# number_of_entries = 0
+# while number_of_entries < 30:
+#     entries = int(input('Ile osób wchodzi? '))
+#     number_of_entries += entries
+#
+#     print('Razem osób: ', number_of_entries)
+
+# 51:00 yt
+
+# funkcje!
+
+# def say_hello(first_name=''):
+#     print(f'Witaj {first_name}!')
+#
+# say_hello('Adam')
+# say_hello('Arek')
+# say_hello()
+
+# def calculate_brutto(netto, vat=0.23):
+#     return netto + netto * vat
+#
+# total = calculate_brutto(100)
+# total += calculate_brutto(200)
+# print(total)
+
+# Udemy ///
+
+# Zmienne...
+
+# wiek = 29
+# print(wiek)
+# wiek = 33
+# print(wiek)
+
+# ++++++++++++++++++ 12 Beginner Python projects - Coding Course (YT):
+
+# youtuber = "Kylie Ying"
+# print("subscribt to " + youtuber)
+# print("subscribe to {}".format(youtuber))
+# print(f"subscribe to {youtuber}")
+
+adj = input("Adjective: ")
+verb1 = input("Verb: ")
+verb2 = input("Verb: ")
+famous_person = input("Famous peron: ")
 
 
-capitals = {
-    'Poland': 'Warszawa',
-    'France': 'Paris',
-    'Germany': 'Berlin'
-}
+madlib = f"Computer programming is so {adj}! It makes me so excited all the time becouse " \
+         f"I love to {verb1}. Stay hydrated and {verb2} like you are {famous_person}!"
 
-selected_country = choice(list(capitals.keys()))
-
-capital = input(f'What is the capital of {selected_country}? ')
-
-if capitals[selected_country] == capital:
-    print('Bardzo dobrze!')
-else:
-    print('Wcale nie! Chodziło nam o', capitals[selected_country])
+print(madlib)
