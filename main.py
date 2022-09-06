@@ -121,20 +121,71 @@
 
 # słowniki
 
-from random import choice
+# from random import choice
+#
+#
+# capitals = {
+#     'Poland': 'Warszawa',
+#     'France': 'Paris',
+#     'Germany': 'Berlin'
+# }
+#
+# selected_country = choice(list(capitals.keys()))
+#
+# capital = input(f'What is the capital of {selected_country}? ')
+#
+# if capitals[selected_country] == capital:
+#     print('Bardzo dobrze!')
+# else:
+#     print('Wcale nie! Chodziło nam o', capitals[selected_country])
 
+# 39:00 i dalej
 
-capitals = {
-    'Poland': 'Warszawa',
-    'France': 'Paris',
-    'Germany': 'Berlin'
-}
+# capitals = {'Warsaw', 'London', 'Paris'}
+# loved_cities = {'Paris', 'New York'}
+#
+# print(capitals)
+# print(loved_cities)
+#
+# print(capitals - loved_cities)
+# print(capitals & loved_cities)
 
-selected_country = choice(list(capitals.keys()))
+# 45:00 i dalej
 
-capital = input(f'What is the capital of {selected_country}? ')
+# pętle
 
-if capitals[selected_country] == capital:
-    print('Bardzo dobrze!')
-else:
-    print('Wcale nie! Chodziło nam o', capitals[selected_country])
+# for - petla wykonujaca sie okreslona ilosc razy (skonczona) range - okreslamy ile razy
+
+# for n in range(10):
+#     print(n)
+
+# for _ in range(10):
+#     print('Napisze cos!')
+
+# while - petla wykonuje sie dopoki twierdzenie jest prawdziwe.
+
+# number_of_entries = 0
+# while number_of_entries < 30:
+#     entries = int(input('Ile osób wchodzi? '))
+#     number_of_entries += entries
+#
+#     print('Razem osób: ', number_of_entries)
+
+# 51:00 yt
+
+# funkcje!
+
+# def say_hello(first_name=''):
+#     print(f'Witaj {first_name}!')
+#
+# say_hello('Adam')
+# say_hello('Arek')
+# say_hello()
+
+# def calculate_brutto(netto, vat=0.23):
+#     return netto + netto * vat
+#
+# total = calculate_brutto(100)
+# total += calculate_brutto(200)
+# print(total)
+
