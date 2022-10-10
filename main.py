@@ -159,3 +159,15 @@
 
 # Importowanie bibliotek - czym są funkcje? (Udemy)
 
+# imie = "arkadiusz"
+#
+# imie = imie.capitalize()
+#
+# print(imie)
+
+# Udemy Pobieranie i formatowanie danych od użytkownika oraz rzutowanie
+
+a = int(input())
+b = int(input())
+
+print("Wynik dodawania to: " + str(a + b))
