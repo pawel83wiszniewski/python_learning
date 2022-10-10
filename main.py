@@ -167,7 +167,33 @@
 
 # Udemy Pobieranie i formatowanie danych od użytkownika oraz rzutowanie
 
-a = int(input())
-b = int(input())
+# print("Kalkulator dodający:")
+#
+# a = int(input("Podaj pierwszą liczbę: "))
+# b = int(input("Podaj drugą liczbę: "))
+#
+# print("Wynik dodawania to: ", a + b)
+#
+# 16. Operatory porównania
 
-print("Wynik dodawania to: " + str(a + b))
+# Instrukcja warunkowa If oraz WCIĘCIA | UWAGA! | Python inaczej odbiera wcięcia
+
+# a = int(input())
+# b = int(input())
+#
+# if (a > b):
+#     print("a jest większe od b")
+# elif (b > a):
+#     print("b jest większe od a")
+# else:
+#     print("a jest równe b")
+
+# 19. Wartości różne od 0
+
+# 20. Operatory Logiczne
+
+wartosc = int(input("Sprawdze, czy liczba jest od 1 do 10"))
+
+if (wartosc > 1):
+    if (wartosc < 10):
+    print("Wartosc jest od 1 do 10")
