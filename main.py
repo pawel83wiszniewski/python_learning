@@ -196,4 +196,11 @@ wartosc = int(input("Sprawdze, czy liczba jest od 1 do 10"))
 
 if (wartosc > 1):
     if (wartosc < 10):
-    print("Wartosc jest od 1 do 10")
+        print("wartosc jest od 1 do 10")
+    if (wartosc > 10):
+        print("zbyt duzo")
+
+# Operatory logiczne:
+#
+# and - i
+# True - prawda
