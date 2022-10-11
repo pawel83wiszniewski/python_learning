@@ -192,15 +192,29 @@
 
 # 20. Operatory Logiczne
 
-wartosc = int(input("Sprawdze, czy liczba jest od 1 do 10"))
-
-if (wartosc > 1):
-    if (wartosc < 10):
-        print("wartosc jest od 1 do 10")
-    if (wartosc > 10):
-        print("zbyt duzo")
+# wartosc = int(input("Sprawdze, czy liczba jest od 1 do 10"))
+#
+# if (wartosc > 1):
+#     if (wartosc < 10):
+#         print("wartosc jest od 1 do 10")
+#     if (wartosc > 10):
+#         print("zbyt duzo")
 
 # Operatory logiczne:
 #
-# and - i
+# and - i, or i not
 # True - prawda
+# or - lub
+
+# a = 5
+# b = 2
+# if (a == 5 || b == 3):
+#     print("tak")
+
+# Pętla While:
+
+liczba = 0
+
+while liczba <= 5:
+    print(liczba)
+    liczba += 1
