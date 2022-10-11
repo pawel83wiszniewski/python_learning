@@ -223,11 +223,28 @@
 
 wynik = 0
 
-i = 0
-while i < 4:
-    x = int(input("Podaj liczbę: "))
+# i = 0
+# while i < 4:
+#     x = int(input("Podaj liczbę: "))
+#
+#     wynik += x
+#     i += 1
+#
+# print("Wynik dodawania: ", wynik)
 
-    wynik += x
-    i += 1
+# Pętla for:::
 
-print("Wynik dodawania: ", wynik)
+# for i in range(121):
+#     if (i % 2 == 0):
+#         print("Liczba", i, " jest parzysta")
+#
+# print("Wynik dodawania liczb to: ", wynik)
+
+# --- break i continue:
+
+wynik = 0
+
+for i in range(3):
+    x = int(input("Podaj dodatnia liczbe"))
+    if (x > 0):
+        wynik += x
