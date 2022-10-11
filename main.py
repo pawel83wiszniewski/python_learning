@@ -221,7 +221,7 @@
 
 # --- Ćwiczenia Pętle: Suma kolejnych liczb:
 
-wynik = 0
+# wynik = 0
 
 # i = 0
 # while i < 4:
@@ -242,9 +242,38 @@ wynik = 0
 
 # --- break i continue:
 
-wynik = 0
+# wynik = 0
+#
+# i = 0
+#
+# while i < 3:
+#     x = int(input("Podaj dodatnia liczbe: "))
+#     if (x > 0):
+#         wynik += x
+#
+#     else:
+#         print("Miała być liczba dodatnia!")
+#         continue
+#     print("Aktualny wynik dodawania to:", wynik)
 
-for i in range(3):
-    x = int(input("Podaj dodatnia liczbe"))
-    if (x > 0):
-        wynik += x
+# Zadanie:
+#
+# Napisz program, który doda 3 parzyste liczby dodatnie podane przez użytkownika.
+#
+# Jeśli liczba będzie niedodatnia lub nieparzysta to program ma zapytać się o liczbę jeszcze raz. Program ma pytać się o liczby parzyste dodatnie dopóki nie doda 3 liczb.
+#
+#
+#
+# Wynik możesz wypisywać w pętli lub na końcu pętli. Pamiętaj liczby mają być i parzyste i dodatnie w tym samym momencie!
+#
+# wynik = 0
+# i = 0
+# while i < 3:
+#     x = int(input("Podaj parzystą, dodatnią liczbę:"))
+#     if (x > 0 and x % 2 == 0):
+#         wynik += x
+#     else:
+#         print("Miała być liczba dodatnia parzysta, zapytam się o liczbę ponownie")
+#         continue
+#     print("Aktualny wynik dodawania to:", wynik)
+#     i += 1
