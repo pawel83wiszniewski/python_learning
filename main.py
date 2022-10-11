@@ -213,8 +213,21 @@
 
 # Pętla While:
 
-liczba = 0
+# liczba = 5
+#
+# while liczba >= 0:
+#     print(liczba)
+#     liczba -= 1
 
-while liczba <= 5:
-    print(liczba)
-    liczba += 1
+# --- Ćwiczenia Pętle: Suma kolejnych liczb:
+
+wynik = 0
+
+i = 0
+while i < 4:
+    x = int(input("Podaj liczbę: "))
+
+    wynik += x
+    i += 1
+
+print("Wynik dodawania: ", wynik)
