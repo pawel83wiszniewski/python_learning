@@ -283,11 +283,20 @@
 szukanaLiczba = 40
 zgadywanaLiczba = 0
 
-while zgadywanaLiczba != szukanaLiczba:
-    zgadywanaLiczba = int(input("Odgadnij liczbę: "))
+# while zgadywanaLiczba != szukanaLiczba:
+#     zgadywanaLiczba = int(input("Odgadnij liczbę: "))
+#
+#     # if (zgadywanaLiczba == szukanaLiczba):
+#     #     print("Brawo!")
+#     #
+#     # else:
+#     #     print("Sprobuj ponownie!")
+#     if (zgadywanaLiczba > szukanaLiczba):
+#         print("Za duża liczba!")
+#     elif (zgadywanaLiczba < szukanaLiczba):
+#         print("Za mała liczba!")
+#     else:
+#         print("Brawo!")
 
-    if (zgadywanaLiczba == szukanaLiczba):
-        print("Brawo!")
+# ________ Czym jest lista? Podstawowe operacje na listach
 
-    else:
-        print("Sprobuj ponownie!")
