@@ -277,3 +277,6 @@
 #         continue
 #     print("Aktualny wynik dodawania to:", wynik)
 #     i += 1
+
+# Ćwiczenia - zgadywanie liczby:
+
