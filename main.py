@@ -304,5 +304,7 @@ imiona = ["Arek", "Karol", "Grzegorz", "Adam", "Jacek"]
 liczby = [1, 23, 34, 2]
 mieszana = [1, "ac", 3, 4]
 
-for imie in imiona:
-    print(imie)
+# for imie in imiona:
+#     print(imie)
+
+print(imiona[-3])
