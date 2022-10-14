@@ -298,13 +298,16 @@
 #     else:
 #         print("Brawo!")
 
-# ________ Czym jest lista? Podstawowe operacje na listach
+# # ________ Czym jest lista? Podstawowe operacje na listach
+#
+# imiona = ["Arek", "Karol", "Grzegorz", "Adam", "Jacek"]
+# liczby = [1, 23, 34, 2]
+# mieszana = [1, "ac", 3, 4]
+#
+# # for imie in imiona:
+# #     print(imie)
+#
+# print(imiona[-3])
+#
+# --- === 28. Lista "in" i "not in"
 
-imiona = ["Arek", "Karol", "Grzegorz", "Adam", "Jacek"]
-liczby = [1, 23, 34, 2]
-mieszana = [1, "ac", 3, 4]
-
-# for imie in imiona:
-#     print(imie)
-
-print(imiona[-3])
