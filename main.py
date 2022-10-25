@@ -323,7 +323,7 @@
 # else:
 #     print("Jest")
 
- # Operacje i funkcje na listach
+# Operacje i funkcje na listach
 
 # Polecenia dla list:
 #
@@ -342,5 +342,10 @@
 # .reverse - zmień kolejność
 
 
+lista1 = [54, 1, -2, 20, 1]
+lista2 = ["Arkadiusz", "Wioletta"]
 
-
+# print(len(lista1))
+# lista1.append(4)
+lista1.extend([2, 12, 24, 2])
+print(lista1)
