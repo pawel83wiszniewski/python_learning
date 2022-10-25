@@ -310,20 +310,37 @@
 # print(imiona[-3])
 #
 # --- === 28. Lista "in" i "not in"
-
-imiona = ["Arkadiusz", "Wioletta", "Karol", "Kuba", "Adrian", "Wojtek"]
-liczby = [3, 12, 24, 7, -8]
-
-if ("Wojtek" in imiona):
-    print("Elo")
-
-if (3 not in liczby):
-    print("Nie ma")
-
-else:
-    print("Jest")
-
-
+#
+# imiona = ["Arkadiusz", "Wioletta", "Karol", "Kuba", "Adrian", "Wojtek"]
+# liczby = [3, 12, 24, 7, -8]
+#
+# if ("Wojtek" in imiona):
+#     print("Elo")
+#
+# if (3 not in liczby):
+#     print("Nie ma")
+#
+# else:
+#     print("Jest")
 
  # Operacje i funkcje na listach
+
+# Polecenia dla list:
+#
+# len() - długość
+# .append - dodać
+# .extend - rozszerzyć
+# .insert(index, co) - wstawić
+# .index - indeks elementu
+# sort - sortuj rosnąco
+# max()
+# min()
+# .count - ile razy coś wystąpi
+# .pop - usuń ostatni element
+# .remove - usuń pierwsze wystąpienie
+# .clear - wyczyścić listę
+# .reverse - zmień kolejność
+
+
+
 
