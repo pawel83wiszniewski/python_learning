@@ -311,3 +311,19 @@
 #
 # --- === 28. Lista "in" i "not in"
 
+imiona = ["Arkadiusz", "Wioletta", "Karol", "Kuba", "Adrian", "Wojtek"]
+liczby = [3, 12, 24, 7, -8]
+
+if ("Wojtek" in imiona):
+    print("Elo")
+
+if (3 not in liczby):
+    print("Nie ma")
+
+else:
+    print("Jest")
+
+
+
+ # Operacje i funkcje na listach
+
